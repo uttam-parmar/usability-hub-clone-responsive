@@ -1,0 +1,146 @@
+@media screen and (max-width:991px){
+
+    .hamburgericon{
+        display: block;
+        margin-right: 20px;
+    }
+    .navbar{
+        overflow: initial;
+    }
+    .navlinks{
+        position: absolute;
+        background-color: white;
+        left: 100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.4s ease-in-out;
+    }
+    .active{
+        left: 0;
+        
+    }
+    .navlinks ul{
+        flex-direction: column;
+    }
+    .examplecard{
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+    .examplesarea{
+        gap: 20px;
+    }
+    .ctaarea{
+        padding-top: 20px;
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:767px){
+    .header{
+        flex-direction: column-reverse;
+    }
+    .headertext{
+        max-width: 100vw;
+        text-align: center;
+    }
+    .navbarsignupbtn{
+        width: 50%;
+    }
+    .headerimg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .headerimg img{
+        width: 80%;
+
+    }
+    .featurescard{
+        min-width: calc(50% - 10px);
+    }
+    .bigfeatureplace{
+        flex-direction: column;
+    }
+    .bigfeatureplacesecond{
+        flex-direction: column-reverse;
+    }
+    .bigfeatureimg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .bigfeatureimg img{
+        width: 70%;
+    }
+    .footerarea{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .columnlink{
+        align-items: center;
+        text-align: center;
+    }
+    .subfooterarea{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .subfooterlinks{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .companieslogo{
+        margin-bottom: 10px;
+    }
+
+}
+@media screen and (max-width:479px){
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .featurescard{
+        min-width: 100%;
+    }
+    .examplecard{
+        width: 100%;
+    }
+    .ctaarea p{
+        text-align: center;
+    }
+    .uppertext h4{
+        margin-left: 0px;
+    }
+    .uppertext h2{
+        margin-left: 0px;
+    }
+    .uppertext p{
+        margin-left: 0px;
+    }
+    .middletext img{
+        margin-left: 0px;
+    }
+    .lowertext h4{
+        margin-left: 0px;
+    }
+    .person{
+        margin-left: 0px;
+    }
+    .ctasignupbtn{
+        width: 60%;
+    }
+    .ctaarea h2{
+        text-align: center;
+    }
+    .headersignupbtn{
+        width: 60%;
+    }
+}
